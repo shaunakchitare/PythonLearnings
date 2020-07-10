@@ -50,7 +50,6 @@ def add_numbers_5(my_dict):
     L1 = [v1,v2,v3]
     r = sum(L1)
     return r
-
 total = add_numbers_5({'a':1,'b':2,'c':3})
 print(total)
 
@@ -64,10 +63,21 @@ def add_numbers_6(my_dict):
 total = add_numbers_6({'a':1,'b':2,'c':3, 'd':4})
 print(total)
 
+#-------------------------------------------------------------------------------
+print('\nExercise 7')
+def add_numbers_7(kanha):
+    shaunak = kanha['s']
+    jas = kanha['j']
+    kedar = kanha['k']
+    shrijit = kanha['sh']
+    anvi = kanha['a']
+    Sjksha = [shaunak,jas,kedar,shrijit,anvi]
+    v = sum(Sjksha)
+    return v
 
 
-
-
+total = add_numbers_7({'s':9,'j':10,'k':8,'sh':7,'a':6})
+print(total)
 
 
 
